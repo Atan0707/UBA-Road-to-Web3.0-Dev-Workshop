@@ -4,7 +4,7 @@ This workshop is designed to introduce you to the basics of React. You will lear
 
 ## Installation
 
-1. To get started, clone the repository and install the dependencies:
+1. To get started, clone the repository (skip if already done):
 
 ```bash
 git clone https://github.com/Atan0707/UBA-Road-to-Web3.0-Dev-Workshop.git
