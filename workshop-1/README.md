@@ -4,19 +4,34 @@ This workshop is designed to introduce you to the basics of React. You will lear
 
 ## Installation
 
-1. Make sure nodejs have been installed first.
-
-Nodejs installation link: https://nodejs.org/en
-
-2. To get started, clone the repository and install the dependencies:
+1. To get started, clone the repository and install the dependencies:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Atan0707/UBA-Road-to-Web3.0-Dev-Workshop.git
+cd UBA-Road-to-Web3.0-Dev-Workshop
+```
+
+2. Go to workshop-1 folder
+
+```bash
 cd workshop-1
+```
+
+3. Install dependencies
+
+```bash
 npm install
 ```
 
-3. To start development server, run
-`
+4. Start development server
+
+```bash
 npm run dev
-`
+```
+
+## FAQ
+
+1. If you encounter this error `npm: command not found`, it means that no nodejs detected in your machine. If you've installed nodejs, try to retart your terminal.
+
+
+
