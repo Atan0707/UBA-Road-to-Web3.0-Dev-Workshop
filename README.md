@@ -30,3 +30,8 @@ Before starting the workshops, make sure you have the following installed:
 If you find any issues or have suggestions for improvements, please feel free to:
 1. Open an issue
 2. Submit a pull request
+
+## Playground
+
+If you want to learn react without installing any files, try:
+1. Codesandbox[https://codesandbox.io/templates]
