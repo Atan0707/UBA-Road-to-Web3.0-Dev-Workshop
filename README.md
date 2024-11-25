@@ -34,4 +34,4 @@ If you find any issues or have suggestions for improvements, please feel free to
 ## Playground
 
 If you want to learn react without installing any files, try:
-1. Codesandbox[https://codesandbox.io/templates]
+1. [Codesandbox](https://codesandbox.io/templates)
