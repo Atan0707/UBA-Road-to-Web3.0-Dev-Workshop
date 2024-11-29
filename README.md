@@ -30,3 +30,25 @@ Before starting the workshops, make sure you have the following installed:
 If you find any issues or have suggestions for improvements, please feel free to:
 1. Open an issue
 2. Submit a pull request
+
+## React + Vite
+
+To install react on your devices:
+
+```bash
+npm create vite@latest
+npm install
+npm run dev
+```
+
+Resource: https://vite.dev/guide/
+
+## Tailwind CSS
+
+To install tailwind in your react folder, do follow this documentation
+
+Tailwind installation link: https://tailwindcss.com/docs/guides/vite
+
+## Solidity Learning Resource
+
+Solidity by example: https://solidity-by-example.org/
