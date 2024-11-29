@@ -31,6 +31,7 @@ If you find any issues or have suggestions for improvements, please feel free to
 1. Open an issue
 2. Submit a pull request
 
+<<<<<<< HEAD
 ## React + Vite
 
 To install react on your devices:
@@ -52,3 +53,9 @@ Tailwind installation link: https://tailwindcss.com/docs/guides/vite
 ## Solidity Learning Resource
 
 Solidity by example: https://solidity-by-example.org/
+=======
+## Playground
+
+If you want to learn react without installing any files, try:
+1. [Codesandbox](https://codesandbox.io/templates)
+>>>>>>> 65c211c75e5169def2d9ea6b368af7dd317af252
