@@ -11,6 +11,9 @@ function Navbar() {
         <li>
           <Link to="/counter" className="text-white">Counter</Link>
         </li>
+        <li>
+          <Link to="/api-demo" className="text-white">API Demo</Link>
+        </li>
       </ul>
     </nav>
   );
