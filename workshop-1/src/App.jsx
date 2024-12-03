@@ -1,7 +1,9 @@
-import { useState, useEffect } from 'react'; // this one we call it hook
-// useState is just like normal variable but it will re-render the component when the value is changed
-// useEffect is just like automatic function that will run when the component is rendered
-
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Counter from './pages/Counter';
+import Home from './pages/Home';
+import ApiDemo from './pages/API';
 
 function App() {
 const [count, setCount] = useState(0);
@@ -24,17 +26,16 @@ useEffect(() => {
 }, [count]);
 
   return (
-    <div className=" items-center justify-center min-h-screen">
-      <h1 className="text-3xl font-bold">
-        Hello World
-      </h1>
-      <button onClick={increment}>click this</button> 
-      {/* this one without react */}
-      <br />
-      <button onClick={increment2}>click this (useste)</button>
-       <p>without useState: {count1}</p>
-      <p>With useState: {count}</p>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/counter" element={<Counter />} />
+          <Route path="/api-demo" element={<ApiDemo />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
